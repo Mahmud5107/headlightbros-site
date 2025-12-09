@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Columbus Headlight Restoration | HeadlightBros</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Mobile headlight restoration in the Columbus area. We clear foggy, yellow, and faded headlights, apply UV protection, and back every job with a 1-year warranty.">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: #f5f5f5;
+    }
+    a { color: inherit; text-decoration: none; }
+    .page { padding: 20px; max-width: 950px; margin: auto; }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #222;
+    }
+
+    .brand {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .sub {
+      font-size: 12px;
+      color: #b3b3b3;
+    }
+
+    .hero {
+      margin-top: 30px;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .badge {
+      display: inline-block;
+      margin: 5px 5px 15px 0;
+      padding: 6px 12px;
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 20px;
+      font-size: 12px;
+      color: #d3d3d3;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 30px;
+      background: #f5a623;
+      color: #111;
+      font-weight: bold;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+
+    .section {
+      margin-top: 40px;
+    }
+
+    .section h2 {
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: #c2c2c2;
+    }
+
+    ul li::before {
+      content: "✓ ";
+      color: #f5a623;
+    }
+
+    .footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #222;
+      font-size: 12px;
+      color: #888;
+      text-align: center;
+      padding-bottom: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div>
+        <div class="brand">HEADLIGHTBROS</div>
+        <div class="sub">Columbus Headlight Restoration</div>
+      </div>
+      <a href="tel:6145885365" class="btn">Call / Text: 614-588-5365</a>
+    </div>
+
+    <!-- HERO -->
+    <div class="hero">
+      <h1>Professional Headlight Restoration in Columbus</h1>
+      <p>We clear foggy, yellow, and faded headlights and protect them with a UV coating so they stay clear. Mobile service with a 1-year warranty on every job.</p>
+
+      <div>
+        <span class="badge">Mobile Service</span>
+        <span class="badge">UV Protective Coating</span>
+        <span class="badge">1-Year Warranty</span>
+      </div>
+
+      <a href="tel:6145885365" class="btn">Call / Text Now</a>
+      <a href="#quote" class="btn" style="background:#1a1a1a; color:#f5f5f5; border:1px solid #333;">Request a Quote</a>
+    </div>
+
+    <!-- WHAT WE DO -->
+    <div class="section">
+      <h2>What We Do</h2>
+      <ul>
+        <li>Restore foggy, yellow, or faded headlights back to clear condition</li>
+        <li>Remove oxidation and old damaged coating</li>
+        <li>Machine polish for crystal clarity</li>
+        <li>Apply UV protection to help prevent fogging again</li>
+        <li>Mobile service anywhere in the Columbus area</li>
+        <li>Every job backed by a 1-year warranty</li>
+      </ul>
+    </div>
+
+    <!-- AREAS SERVED -->
+    <div class="section">
+      <h2>Areas We Serve</h2>
+      <ul>
+        <li>Columbus</li>
+        <li>Powell</li>
+        <li>Dublin</li>
+        <li>Lewis Center</li>
+        <li>Westerville</li>
+        <li>Worthington</li>
+        <li>Hilliard</li>
+        <li>Delaware</li>
+      </ul>
+    </div>
+
+    <!-- QUOTE FORM -->
+    <div class="section" id="quote">
+      <h2>Request a Quote</h2>
+      <p>Text a photo of your headlights for the fastest response.</p>
+      <ul>
+        <li>Text: <strong>614-588-5365</strong></li>
+        <li>Email: <strong>headlightbros614@gmail.com</strong></li>
+      </ul>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      © <span id="year"></span> HeadlightBros · Columbus Headlight Restoration  
+    </div>
+  </div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
